@@ -11,10 +11,10 @@ const Header = ({ children }) => {
 const navbar = () => {
   return (
     <div>
-        <Header>
-            <nav className='flex'>
-                <a href="#">
-                    Your<span>C</span>ompanay
+        <Header className="bg-white">
+            <nav className='max-w-[1400px] mx-auto px-10 h-[15vh] flex justify-between items-center'>
+                <a href="#" className='text-3xl font-bold'>
+                    Your<span className='text-green-400'>C</span>ompanay
                 </a>
 
                 <ul className='flex'>
