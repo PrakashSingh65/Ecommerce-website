@@ -1,15 +1,14 @@
 import React from 'react'
-import navbar from '../Navbar/navbar.jsx'
-import hero from '../hero/hero.jsx'
+import Navbar from '../Navbar/navbar.jsx'
+i
 
-const home = () => {
+const Home = () => {
   return (
     <div>
-        <navbar/>
-        <hero />
-          
+        <Navbar/>
+        <Hero />
     </div>
   )
 }
 
-export default home
+export default Home
