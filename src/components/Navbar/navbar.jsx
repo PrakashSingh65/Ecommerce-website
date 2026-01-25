@@ -1,4 +1,6 @@
 import React from 'react'
+import { AiFillDatabase } from "react-icons/ai";
+import { IoSearch } from "react-icons/io5";
 
 const Header = ({ children }) => {
   return (
@@ -32,11 +34,16 @@ const navbar = () => {
                     </li>
                 </ul>
 
-                <div>
-                    <a href="#">
-                        
+                    <div className='flex p-1 border-2 border-green-500 rounded-full'>
+                        <input type="text" name="text" id="text" placeholder='search...' autoComlete='off' 
+                        className='flax-1 h-[5vh] px-3 focus:outline-none'/>
+                        <button className='bg-gradient-to-b from-red-600 to-green-500 text-white w-10 h-10 flax justify-center items-center rounded-full text-2xl'>
+                            <IoSearch />
+                        </button>
+                    </div>
+                    <a href="#" className='text-zince-800 text-2xl'>
+                        <AiFillDatabase />
                     </a>
-                </div>
             </nav>
         </Header>
     </div>
