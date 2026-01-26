@@ -13,7 +13,7 @@ const Header = ({ children }) => {
 const Navbar = () => {
   return (
     <div>
-        <Header className="bg-white">
+        <Header className='bg-white fixed top-0 right-0 left-0'>
             <nav className='max-w-[1400px] mx-auto px-10 h-[15vh] flex justify-between items-center'>
                 <a href="#" className='text-3xl font-bold'>
                     Your<span className='text-green-400 uppercase'>C</span>ompanay
