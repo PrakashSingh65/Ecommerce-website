@@ -1,6 +1,7 @@
 import React from 'react'
-import Navbar from './components/navbar/Navbar'
+import Navbar from './components/Navbar/navbar'
 import Home from './components/home/home'
+
 
 
 

@@ -1,12 +1,12 @@
 import React from 'react'
+import Hero from '../hero/hero'
 
-import Hero from '../hero/hero.jsx'
 
 const Home = () => {
   return (
     <div>
        
-        <Hero />
+        <Hero/>
     </div>
   )
 }

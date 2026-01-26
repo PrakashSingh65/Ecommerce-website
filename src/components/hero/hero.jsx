@@ -1,5 +1,5 @@
 import React from 'react'
-// import herophone from '@/assets/unnamed.jpg'
+import herophone from '../../assets/unnamed.jpg'
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
               <span className='bg-green-100 text-red-500 text-lg'>Best Mobile Phone</span>
             </div>
             <div>
-                {/* <img src={herophone} alt="Hero" /> */}
+                <img src={herophone} alt="Hero" />
             </div>
 
         </div>
