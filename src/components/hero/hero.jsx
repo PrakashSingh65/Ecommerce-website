@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section>
         <div className='max-w-\[1400px\] mx-auto px-10 flex item-center'>
-            <div>
+            <div className='flex-1'>
               <span className='bg-green-100 text-red-500 text-lg px-5 py-2 rounded-full'>Best Mobile Phone</span>
               <h1 className='text-5xl font-bold'>
                 Register with a valid GSTIN and an active <span className='text-red-700'>Bank</span> <span className='text-red-700'>Account</span> to become an Your<span className='text-green-400 uppercase'>C</span>ompany.in seller.
