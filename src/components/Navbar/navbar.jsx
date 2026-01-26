@@ -10,7 +10,7 @@ const Header = ({ children }) => {
   );
 };
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <div>
         <Header className="bg-white">
@@ -36,8 +36,8 @@ const navbar = () => {
 
                     <div className='flex p-1 border-2 border-green-500 rounded-full'>
                         <input type="text" name="text" id="text" placeholder='search...' autoComlete='off' 
-                        className='flax-1 h-[5vh] px-3 focus:outline-none'/>
-                        <button className='bg-gradient-to-b from-red-600 to-green-500 text-white w-10 h-10 flax justify-center items-center rounded-full text-2xl'>
+                        className='flex-1 h-[5vh] px-3 focus:outline-none'/>
+                        <button className='bg-gradient-to-b from-red-600 to-green-500 text-white w-10 h-10 flex justify-center items-center rounded-full text-2xl'>
                             <IoSearch />
                         </button>
                     </div>
@@ -50,4 +50,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar

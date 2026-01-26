@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from '../navbar/Navbar.jsx'
-i
+
+import Hero from '../hero/hero.jsx'
 
 const Home = () => {
   return (
     <div>
-        <Navbar/>
+       
         <Hero />
     </div>
   )
