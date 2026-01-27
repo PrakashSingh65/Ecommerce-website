@@ -41,7 +41,7 @@ const Navbar = () => {
                             <IoSearch />
                         </button>
                     </div>
-                    <a href="#" className='text-zince-800 text-2xl'>
+                    <a href="#" className='text-zince-800 text-2xl md:hidden'>
                         <AiFillDatabase />
                     </a>
             </nav>
