@@ -19,7 +19,7 @@ const Navbar = () => {
                     Your<span className='text-green-400 uppercase'>C</span>ompanay
                 </a>
 
-                <ul className='flex items-center gap-x-15'>
+                <ul className='md:flex items-center gap-x-15'>
                     <li>
                         <a href="#" className='font-semibold traking-wider text-zinc-700 hover:text-green-400'>Home</a>        
                     </li>
