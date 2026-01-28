@@ -1,13 +1,11 @@
 import React from 'react'
+import Heading from '../Heading/Heading'
 
 const Category = () => {
   return (
     <section>
         <div className='py-20'>
-            <div className=',x-auto bg-red-300'>
-                <h2 className='text-5xl font-bold'>Premium Phones</h2>
-                <div></div>
-            </div>
+            <Heading/>
         </div>
     </section>
   )
