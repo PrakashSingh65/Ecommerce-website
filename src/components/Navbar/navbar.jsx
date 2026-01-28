@@ -1,6 +1,8 @@
 import React from 'react'
-import { AiFillDatabase } from "react-icons/ai";
+import { useState } from 'react';
+import { TbMenu2 } from "react-icons/tb";
 import { IoSearch } from "react-icons/io5";
+import { TbMenu3 } from "react-icons/tb";
 
 const Header = ({ children }) => {
   return (
@@ -11,6 +13,12 @@ const Header = ({ children }) => {
 };
 
 const Navbar = () => {
+
+    const[showMenu, setShowMenu]=useState(false);
+    const toggleMenu= () => {
+        
+        setShowMenu(!ShowMenu);
+    }
   return (
     <div>
         <Header className='bg-white fixed top-0 right-0 left-0'>
@@ -41,8 +49,8 @@ const Navbar = () => {
                             <IoSearch />
                         </button>
                     </div>
-                    <a href="#" className='text-zince-800 text-2xl md:hidden'>
-                        <AiFillDatabase />
+                    <a href="#" className='text-zince-800 text-2xl'>
+                        {showMenu ? <TbMenu2/> :<TbMenu3 />}
                     </a>
             </nav>
         </Header>
