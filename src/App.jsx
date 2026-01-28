@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar/navbar'
-import Home from './components/home/home'
+import { Outlet } from 'react-router-dom'
 
 
 
@@ -9,7 +9,7 @@ export default function App() {
   return (
     <div>
       <Navbar/>
-      <Home/>
+      <Outlet/>
     </div>
   )
 }
