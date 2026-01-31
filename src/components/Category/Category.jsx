@@ -24,14 +24,14 @@ const category=[
   }
   {
     id:2,
-    title: 'iPhone',
-    descritption:'The best iPhone models available now',
+    title: 'SAMSUNG',
+    descritption:'The best Samsung models available now',
     image:'iphoneImage',
   }
   {
     id:3,
-    title: 'iPhone',
-    descritption:'The best iPhone models available now',
+    title: 'MOTOROLA',
+    descritption:'The best Motorola models available now',
     image:'iphoneImage',
   }
 ]
