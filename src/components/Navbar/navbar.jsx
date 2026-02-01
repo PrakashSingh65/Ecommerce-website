@@ -17,12 +17,12 @@ const Navbar = () => {
     const[showMenu, setShowMenu]=useState(false);
     const toggleMenu= () => {
         
-        setShowMenu(!ShowMenu);
+        setShowMenu(!showMenu);
     }
   return (
     <div>
         <Header className='bg-white fixed top-0 right-0 left-0'>
-            <nav className='max-w-[1400px] mx-auto px-10 h-[15vh] flex justify-between items-center'>
+            <nav className='max-w-350 mx-auto px-10 h-[15vh] flex justify-between items-center'>
                 <a href="#" className='text-3xl font-bold'>
                     Your<span className='text-green-400 uppercase'>C</span>ompanay
                 </a>
@@ -45,7 +45,7 @@ const Navbar = () => {
                     <div className='flex p-1 border-2 border-green-500 rounded-full'>
                         <input type="text" name="text" id="text" placeholder='search...' autoComlete='off' 
                         className='flex-1 h-[5vh] px-3 focus:outline-none'/>
-                        <button className='bg-gradient-to-b from-red-600 to-green-500 text-white w-10 h-10 flex justify-center items-center rounded-full text-2xl'>
+                        <button className='bg-linear-to-b from-red-600 to-green-500 text-white w-10 h-10 flex justify-center items-center rounded-full text-2xl'>
                             <IoSearch />
                         </button>
                     </div>
