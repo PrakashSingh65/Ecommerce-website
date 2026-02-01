@@ -49,16 +49,20 @@ const categoryimage=[
 const Category = () => {
   return (
     <section>
-        <div className='py-20'>
+        <div className='max-w-[1400px] max-auto px-10 py-20'>
             <Heading highlight="Premium " heading="Phone"/>
+
+            <div>
+              <button className="bg-green-500 text-white px-4 py-2 rounded-md mr-2">See All</button>
+            </div>
 
             <div className="mt-10 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
               {categoryimage.map(item => (
-                <div key={item.id} className="bg-white rounded-lg shadow-md overflow-hidden">
+                <div key={item.id} className="bg-orange-100 rounded-xl shadow-md overflow-hidden">
                   <img src={item.image} alt={item.title} className="w-full h-48 object-contain" />
                   <div className="p-4">
-                    <h3 className="font-semibold text-lg">{item.title}</h3>
-                    <p className="text-sm text-zinc-500 mt-2">{item.descritption}</p>
+                    <h3 className="text-zinc-800 text-3xl font-bold">{item.title}</h3>
+                    <p className="text-zinc-600 mt-3 mb-9">{item.descritption}</p>
                   </div>
                 </div>
               ))}
