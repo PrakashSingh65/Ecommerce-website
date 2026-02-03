@@ -9,7 +9,8 @@ export default function App() {
   return (
     <div>
       <Navbar/>
-      <Outlet/>
+       <div className='pt-10'><Outlet/></div>
     </div>
+    
   )
 }
