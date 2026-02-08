@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import { TbMenu2 } from "react-icons/tb";
 import { IoSearch } from "react-icons/io5";
@@ -37,8 +38,13 @@ const Navbar = () => {
                     <li className='py-3 md:py-0'>
                         <a href="#" className='font-semibold traking-wider text-zinc-700 hover:text-yellow-700'>Process</a>        
                     </li>
-                    <li className='py-3 md:py-0'>
+                <li className='py-3 md:py-0'>
                         <a href="#" className='font-semibold traking-wider text-zinc-700 hover:text-green-400'>Contect Us</a>        
+                    </li>
+                    <li className='py-3 md:py-0'>
+                        <Link to="/login" className='bg-green-500 text-white px-5 py-2 rounded-full font-semibold hover:bg-green-600 transition-all'>
+                            Login
+                        </Link>
                     </li>
                 </ul>
 

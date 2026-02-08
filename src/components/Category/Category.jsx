@@ -65,7 +65,7 @@ const Category = () => {
   return (
 
     <section>
-        <div className='max-w-[1400px] max-auto px-10 py-20'>
+      <div className='max-w-350 mx-auto px-10 py-20'>
             <Heading highlight="Premium " heading="Phone"/>
 
             
