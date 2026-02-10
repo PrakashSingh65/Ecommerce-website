@@ -3,6 +3,7 @@ import App from "../App"
 import Home from "../Pages/Home/Home";
 import Login from "../Pages/Login/Login";
 import Signup from "../Pages/Signup/Signup";
+import Cart from "../Pages/Cart";
 import React from "react";
 const router = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
             {
                 path: "/signup",
                 element:<Signup/>,
+            },
+            {
+                path: "/cart",
+                element:<Cart/>,
             }
         ]
     }
