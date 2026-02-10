@@ -1,16 +1,71 @@
-# React + Vite
+# YourShop Ecommerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive ecommerce application built with React and Tailwind CSS. This project demonstrates a full frontend implementation of an online store, featuring product browsing, detailed product views, shopping cart functionality, and essential pages for a complete user experience.
 
-Currently, two official plugins are available:
+![Screenshot](./screenshort/Screenshot%202026-02-10%20141825.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- **User Authentication**: Functional Login and Signup pages with form validation.
+- **Modern UI/UX**: Clean, responsive design featuring glassmorphism effects and smooth transitions.
+- **Product Browsing**:
+  - **Shop Page**: Grid view of products with category and price filters.
+  - **Product Details**: Comprehensive view with image gallery, color/size selection, and reviews.
+- **Shopping Cart**: Manage items, adjust quantities, and view order summary.
+- **Informational Pages**: Dedicated About Us and Contact Us pages with forms and company details.
+- **Global Navigation**: Responsive Navbar with hamburger menu and sticky positioning.
+- **Footer**: Site-wide footer with quick links and newsletter subscription.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend Framework**: [React](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Routing**: [React Router DOM](https://reactrouter.com/en/main)
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+Follow these steps to set up and run the project locally.
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm (or yarn/pnpm)
+
+### Installation
+
+1.  Clone the repository:
+
+    ```bash
+    git clone https://github.com/yourusername/yourshop-ecommerce.git
+    cd yourshop-ecommerce
+    ```
+
+2.  Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3.  Start the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+4.  Open your browser and navigate to `http://localhost:5173` (or the port shown in your terminal).
+
+## Project Structure
+
+- `src/components`: Reusable UI components (Navbar, Footer, etc.)
+- `src/Pages`: Page components (Home, Shop, ProductDetail, Cart, Login, Signup, About, Contact)
+- `src/Routing`: Router configuration
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
